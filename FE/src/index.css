@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.custom-bg {
+  background-color: #fffafa;
+}
+
+.text-color {
+  color: #000000;
+}
+
+.border-color {
+  border-color: #5b0404;
+}
+
+.custom-bg-text {
+  color: #f8e8e8;
+}
+
+.bg-color {
+  background-color: #ac1a1a;
+}
+
+.rounded-card {
+  padding: 1.5em 0.5em 0.5em;
+  border-radius: 2em;
+  box-shadow: 0 5px 10px rgba(9, 5, 5, 0.2);
+}
+
+.form-card {
+  padding: 0.2em 0.2em 0.2em;
+  border-radius: 1em;
+  box-shadow: 0 5px 10px rgba(28, 16, 16, 0.2);
+}
+
+.card {
+  transition: transform 0.2s ease;
+}
+
+.card:hover .product-card {
+  transform: scale(1.02);
+}
